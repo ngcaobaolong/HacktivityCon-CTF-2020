@@ -22,7 +22,7 @@ http://jh2i.com:50023/admin/%7B%%20for%20x%20in%20().__class__.__base__.__subcla
 ```
 And the flag got reflected:
 
-![flag](https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-0/p280x280/116264299_1407700809430461_432005348538169082_n.png?_nc_cat=109&_nc_sid=b96e70&_nc_ohc=Bsla3_11jHMAX8KusZy&_nc_ht=scontent.fhan2-5.fna&oh=d0bce4232e15e0d381ce5a75a5bdce64&oe=5F4DCD0C)
+![flag](https://scontent.fhan2-3.fna.fbcdn.net/v/t1.15752-9/116144105_1407700806097128_8995638531979701257_n.png?_nc_cat=111&_nc_sid=b96e70&_nc_ohc=n1gV24pm6mgAX9e-x_t&_nc_ht=scontent.fhan2-3.fna&oh=eb3a55e0a07de27e9ec7062f6e0c9091&oe=5F4FBBE3)
 
 Simple challenge, but i dislike the bruteforcing part. It's kind of hit or miss.
 Kudos to @vudq to bruteforce the key for me. My pc suck lol.
